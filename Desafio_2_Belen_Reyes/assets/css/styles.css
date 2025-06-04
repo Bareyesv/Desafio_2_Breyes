@@ -1,0 +1,102 @@
+
+.body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #FAE3C6; 
+
+}
+
+/* Principal */
+.principal {
+  background-color: #FAE3C6;
+  background-image: url('/assets/img/fondo-01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  width: 100%;
+}
+
+.title {
+  padding-top: calc(100vh/2);
+}
+
+.title H1 {
+  font-family: 'century-gothic', sans-serif; arial;
+  font-weight: 100;
+  color: #533B4D;
+  font-size: 50px;
+  text-align: center;
+  margin: 0
+}
+
+/* Productos */
+.productos {
+  background-color: #C1ABA6;
+  padding: 20px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+.titulo_productos {
+font-family: century-gothic, sans-serif; arial;
+  text-align: center;
+  font-size: 30px;
+  color: #533B4D;
+}
+.tabla_productos {
+  width: 100%;
+}
+
+.tabla_columna {
+  width: 33.33%;
+  text-align: center;
+}
+.producto {
+  background-color: #533b4d28;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 350px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.producto_foto img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.producto_nombre {
+  text-align: center;
+  font-size: 20px;
+  font-family: century-gothic, sans-serif; arial;
+  color:#533B4D;
+  font-weight: 700;
+}
+.producto_descripcion {
+  text-align: center;
+  font-size: 12px;
+  font-family: century-gothic, sans-serif; arial;
+  color:#533B4D
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  color:#533B4D}
+
+
+.copyright {
+  font-size: 10px;
+  color: #533B4D;
+  font-family: century-gothic, sans-serif; arial;
+  padding: 10px;
+}
